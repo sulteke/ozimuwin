@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Light-only theme.
+  Palette: white background, near-black text, friendly blue accent.
+  Colors are stored as HSL channels so Tailwind can apply opacity.
+  Edit these values to re-brand the whole site in one place.
+*/
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* white */
+    --foreground: 222 47% 11%; /* near-black text */
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --primary: 221 83% 53%; /* blue accent */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 42%;
+
+    --accent: 214 100% 96%; /* soft blue for hover states */
+    --accent-foreground: 221 83% 53%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;
+
+    --radius: 0.9rem; /* rounded, friendly corners */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Offset anchor targets so the sticky header doesn't cover them. */
+  section[id] {
+    scroll-margin-top: 5.5rem;
+  }
+}
+
+@layer utilities {
+  /* Constrained content width used across sections. */
+  .container-px {
+    @apply mx-auto w-full max-w-6xl px-6;
+  }
+}
