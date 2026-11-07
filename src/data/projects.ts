@@ -78,4 +78,16 @@ export const projects: Project[] = [
     },
     accent: "from-emerald-500 via-green-600 to-teal-700",
   },
+  {
+    name: "Delishas",
+    domain: "delishas.vercel.app",
+    url: "https://delishas.vercel.app",
+    image: "/projects/delishas.png",
+    tag: { ru: "Кондитерская", kk: "Кондитерлік" },
+    description: {
+      ru: "Премиальный сайт десертов на двух языках: каталог, подарочные наборы и заказ через WhatsApp.",
+      kk: "Екі тілдегі премиум десерт сайты: каталог, сыйлық жинақтары және WhatsApp арқылы тапсырыс.",
+    },
+    accent: "from-amber-200 via-stone-300 to-stone-500",
+  },
 ];
