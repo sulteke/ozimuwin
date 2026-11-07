@@ -7,7 +7,7 @@
  */
 export const siteConfig = {
   /** Owner name shown in the header and footer. */
-  name: "Айсултан",
+  name: "Султан",
 
   /**
    * WhatsApp number in international format WITHOUT "+", spaces or dashes.
@@ -16,7 +16,7 @@ export const siteConfig = {
   whatsappNumber: "77777985131",
 
   /** Full profile links. */
-  instagramUrl: "https://instagram.com/site.by.aisultan",
+  instagramUrl: "https://www.instagram.com/e_sultan_b",
   telegramUrl: "https://t.me/e_sultan_b",
 
   /** Optional e-mail (not shown by default, handy to keep here). */
