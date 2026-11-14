@@ -126,7 +126,7 @@ const ru: Dictionary = {
     plans: [
       {
         name: "Одностраничный сайт",
-        price: "от 10 000 до 30 000 ₸",
+        price: "от 10 000 ₸",
         cta: "Оставить заявку",
         features: [
           "Современный дизайн",
@@ -138,7 +138,7 @@ const ru: Dictionary = {
       },
       {
         name: "Сайт-каталог",
-        price: "от 50 000 ₸",
+        price: "от 30 000 ₸",
         cta: "Оставить заявку",
         highlighted: true,
         features: [
@@ -287,7 +287,7 @@ const kk: Dictionary = {
     plans: [
       {
         name: "Бір беттік сайт",
-        price: "10 000 – 30 000 ₸",
+        price: "10 000 ₸-ден",
         cta: "Өтінім қалдыру",
         features: [
           "Заманауи дизайн",
@@ -299,7 +299,7 @@ const kk: Dictionary = {
       },
       {
         name: "Каталог-сайт",
-        price: "50 000 ₸-ден",
+        price: "30 000 ₸-ден",
         cta: "Өтінім қалдыру",
         highlighted: true,
         features: [
